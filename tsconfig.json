@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "module": "NodeNext",
+    "types": ["node", "jest", "express"],
+    "outDir": "./dist",
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    /* Bundler mode */
+    "moduleResolution": "NodeNext",
+    "baseUrl": "./",
+    "paths": {
+      "*": [
+        "src/*"
+      ]
+    },
+    /* Linting */
+    "strict": true,
+    "checkJs": true,
+    "allowJs": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    /* Other options */
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "removeComments": true
+  },
+  "include": ["src/**/*", "tests/**/*"]
+}
